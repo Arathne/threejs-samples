@@ -11,6 +11,7 @@ then go to `http://localhost:8000/[sample name]/index.html` with any browser
 ## Samples
 
 + `basic`: as simple as it gets
++ `model`: importing glb model with lighting and rotating camera
 + `shader-1`: shader source stored in html
 + `shader-2`: shader source stored in separate javascript file
 + `line`: draws lines
