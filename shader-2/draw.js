@@ -7,12 +7,12 @@ camera.position.z = 5;
 
 let scene = new THREE.Scene();
 
-material = new THREE.ShaderMaterial({
-	vertexShader: VERTEX_SHADER, 
+const geometry = new THREE.BoxGeometry(1, 1, 1);
+
+const material = new THREE.ShaderMaterial({
+	vertexShader: VERTEX_SHADER,
 	fragmentShader: FRAGMENT_SHADER
 });
-
-const geometry = new THREE.BoxGeometry(1, 1, 1);
 
 const mesh = new THREE.Mesh(geometry, material);
 mesh.rotation.x += 45;
